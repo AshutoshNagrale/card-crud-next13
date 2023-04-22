@@ -1,5 +1,9 @@
 import Search from "./Search";
 
+export const metadata = {
+  title: "Search Page",
+};
+
 export default function RootLayout({
   children,
 }: {
