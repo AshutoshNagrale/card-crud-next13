@@ -1,5 +1,5 @@
 function Todos() {
-  return <div>This is my Todo Cards</div>;
+  return <div>This is my Todo Cards Page</div>;
 }
 
 export default Todos;
