@@ -1,7 +1,11 @@
 import React from "react";
 
 function Head() {
-  return <div>Search Page</div>;
+  return (
+    <>
+      <title>Search Page</title>;
+    </>
+  );
 }
 
 export default Head;
