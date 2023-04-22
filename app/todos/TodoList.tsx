@@ -1,5 +1,4 @@
 import { Todo } from "@/typings";
-import { log } from "console";
 import Link from "next/link";
 import React from "react";
 
