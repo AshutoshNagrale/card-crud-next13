@@ -1,13 +1,5 @@
-import TodoList from "./TodoList";
-
-function Todo() {
-  return (
-    <div>
-      This is Todo Page
-      {/* @ts-ignore*/}
-      <TodoList />
-    </div>
-  );
+function Todos() {
+  return <div>This is my Todo Cards</div>;
 }
 
-export default Todo;
+export default Todos;
