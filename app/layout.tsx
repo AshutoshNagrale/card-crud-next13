@@ -17,6 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <title>NxI3-crud</title>
       <body className={nunito.className}>
         <Header />
         {children}
