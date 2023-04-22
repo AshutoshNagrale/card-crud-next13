@@ -1,10 +1,13 @@
-async function Todo() {
-  function getTodos(params: Todo) {}
-  return <div>This is Todo Page </div>;
+import TodoList from "./TodoList";
+
+function Todo() {
+  return (
+    <div>
+      This is Todo Page
+      {/* @ts-ignore*/}
+      <TodoList />
+    </div>
+  );
 }
 
 export default Todo;
-
-type Todo = {
-  Name: string;
-};
